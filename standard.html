@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Réservez votre vélib' dans tout Paris en quelque clique.">
+        <link href="img/favicon.jpg" rel="icon"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/signature-pad.css"/>
+        <link rel="stylesheet" href="css/media.css"/>
+        <link rel="stylesheet" href="css/media-phone.css"/>
+        <title>Réservation de vélib' dans Paris</title>
+    </head>
+    <body>
+        <div id="homepage">
+            <img src="img/logo.png" id="logo" alt="Paris vélo réservation">
+            <h1><span id="blue">Réserver </span><span id="white"> votre </span> <span id="red"> vélib'</span> </h1>
+        <!-- slider -->
+            <img src="img/velo.jpg" id="slideshow">
+            <a href="#" ><img src="img/left-arrow.png" id="prev" class="btn-slider" alt="flèche gauche slider"></a>
+            <a href="#" ><img src="img/right-arrow.png" id="next" class="btn-slider" alt="flèche droite slider"></a>
+        <!-- map google -->
+            <div id="map"></div> 
+            <section>
+        <!-- Information station -->
+                <h2>Détails de la station</h2>
+                <p >Adresse : <span id=adress></span></p>
+                <p > Places : <span id=nbmax></span></p>
+                <p > Vélos disponibles : <span id=dispo></span></p>
+        <!-- signature pour réservation -->
+                <div id="signature-pad" class="m-signature-pad">
+                    <div class="m-signature-pad--body">
+                        <canvas></canvas>
+                    </div>
+                    <div id="section-footer">
+                        <p id="indispo">Station fermée</p>
+                        <button type="button" id="clear" data-action="clear">Clear</button>
+                        <input type="button" value="Réserver"  id="canva-resa" >
+                        <input type="button" value="Modifier"  id="modif">
+                   </div>
+               </div>
+          </section>
+          <footer>
+      <!-- info réservation -->
+              <div id="timer-resa">
+                  <p>Durée de la réservation : </p>
+                  <span id="timer"></span>
+              </div>
+              <button type="button" id="afficher">Etat de la réservation</button>
+              <div id="adresse-resa">
+                  <p>Adresse : </p>
+                  <span id="adresse"></span>
+              </div>
+        </footer>
+    </div>
+        <script src="https://code.jquery.com/jquery-1.12.3.js"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+        </script>
+        <script src="js/obj-station.js"></script>
+        <script src="js/signature_pad.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/obj-resa.js"></script>
+        <script src="js/obj-slider.js"></script>
+        <script src="js/projet.js"></script>
+        <script 
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD13Cg_egPcP3ko53ujxt8808gdnKpzxF8&callback=initMap" async defer>
+        </script>
+    </body>
+</html>

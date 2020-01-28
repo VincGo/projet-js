@@ -1,0 +1,23 @@
+@media all and (max-width : 1025px) {
+    #map {
+        height: 850px;
+    }
+    section {
+        margin-top: -590px;
+    }
+    footer {
+        margin-top: 80px;
+    }
+    h1 {
+        padding:  25px 0 25px 350px;
+        margin-top: -89px
+    }
+    #logo {
+        width: 85px;
+        top: 0px;
+    }
+    footer {
+        margin-top: 90px;
+        height: 100px;
+    }
+}

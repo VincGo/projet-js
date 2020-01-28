@@ -1,0 +1,15 @@
+@media all and (max-width: 1620px) {
+    #homepage {
+        margin-right: 300px;
+    }
+}
+@media all and (max-width: 1320px){
+    #homepage {
+        margin: auto;
+    }
+    
+    section {
+        position:relative;
+        left: -300px;
+    }
+}

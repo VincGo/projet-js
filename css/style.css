@@ -1,0 +1,207 @@
+body {
+  -webkit-user-select: none;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+}
+
+#homepage {
+    margin: auto;
+    width: 1000px;
+}
+
+#logo{
+    width: 65px;
+    position: relative;
+    top: 1px;
+    left: 60px;
+    z-index: 1;
+}
+
+h1 {
+    background-color: black;
+    opacity: 0.65;
+    margin: -69px 0 0 0;
+    padding: 15px 0 15px 350px;
+}
+
+#blue {
+    color: #00abff;
+}
+
+#white {
+    color: white;
+}
+
+#red {
+    color: red;
+}
+
+#text {
+    background-color: white;
+    width: 100px;
+    position: absolute;
+    top: 285px;
+    left: 800px;
+}
+
+/* slider */
+#slideshow { 
+    width: 1000px;
+    height: 500px;
+    margin-bottom: -72px;
+}
+
+#prev,
+#next{
+    opacity: 0.5;
+}
+
+#prev:hover,
+#next:hover
+{
+    opacity: 0.9;
+}
+
+#prev
+{
+    position: relative;
+    top: -220px;
+}
+
+#next{
+	position: relative;
+    top: -220px;  
+    float: right;
+}
+
+#map {
+    height: 500px;
+}
+
+section{
+    background-color: white;
+    width: 290px;
+    height: 500px;
+    margin-left: 1010px;
+    margin-top: -520px;
+    visibility: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 10px grey;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    color: #008aef;
+}
+
+section p {
+   margin: 0 0 40px 27px; 
+   font-size: 1.2em;
+}
+
+#canva-resa {
+    width: 125px;
+    height: 40px;
+    background-color: #ff0018;
+    color: white;
+    font-size: 1em;
+}
+
+#canva-resa:hover {
+    background-color: #bb0012;
+    text-decoration: underline;
+}
+
+#indispo {
+    display: none;
+    margin: 20px 0 0 40px;
+}
+
+.m-signature-pad--body {
+    width: 250px;
+    height: 150px;
+    position: relative;
+    left: 17px;
+    border: 1px solid #000000;
+    background-color: grey;
+}
+.m-signature-pad--body
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+  }
+
+#section-footer {
+    height: 20px;
+    margin: 22px 0 0 36px;
+}
+
+#clear {
+    margin-left: -20px;
+}
+
+#modif,
+#clear{
+    background-color: white;
+    width: 60px;
+}
+
+footer { 
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#timer-resa,
+#adresse-resa{
+    width: 425px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+#timer-resa {
+    background-color: #00abff;
+}
+
+#afficher {
+    width: 155px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    font-size: 1.2em;
+    background-color: white;
+}
+
+
+#adresse-resa {
+    background-color: red;
+}
+
+footer p {
+    font-size : 1.3em;
+    margin: 5px 0 5px 10px;
+}
+
+#timer {
+    font-size: 1.8em;
+    margin-left: 230px;
+}
+
+#adresse {
+    font-size: 1.3em;
+    margin-left: 40px;
+}
+
+
+
